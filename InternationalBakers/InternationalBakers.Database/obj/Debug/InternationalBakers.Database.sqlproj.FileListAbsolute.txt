@@ -1,0 +1,6 @@
+C:\Workspace\azure-paas-demo\InternationalBakers\InternationalBakers.Database\bin\Debug\InternationalBakers.Database.dacpac
+C:\Workspace\azure-paas-demo\InternationalBakers\InternationalBakers.Database\bin\Debug\InternationalBakers.Database.dll
+C:\Workspace\azure-paas-demo\InternationalBakers\InternationalBakers.Database\bin\Debug\InternationalBakers.Database.pdb
+C:\Workspace\azure-paas-demo\InternationalBakers\InternationalBakers.Database\obj\Debug\InternationalBakers.Database.sqlproj.AssemblyReference.cache
+C:\Workspace\azure-paas-demo\InternationalBakers\InternationalBakers.Database\obj\Debug\InternationalBakers.Database.dll
+C:\Workspace\azure-paas-demo\InternationalBakers\InternationalBakers.Database\obj\Debug\InternationalBakers.Database.pdb

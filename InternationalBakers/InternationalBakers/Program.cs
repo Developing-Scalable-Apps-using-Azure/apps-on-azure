@@ -1,7 +1,20 @@
+using InternationalBakers.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("ibdb");
+builder.Services.AddDbContext <Sbazuresqldb221936360Context> (x => x.UseSqlServer(connectionString));
+
+builder.Services.AddStackExchangeRedisCache(option =>
+{
+    option.Configuration = builder.Configuration.GetConnectionString
+        ("ibcache");
+    option.InstanceName = "master";
+});
 
 var app = builder.Build();
 

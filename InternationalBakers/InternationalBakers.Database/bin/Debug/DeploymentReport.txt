@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Cookies] (Table)
+       [dbo].[OrderLines] (Table)
+       [dbo].[Orders] (Table)
+       [dbo].[Stores] (Table)
+       [dbo].[CookieForeignKey] (Foreign Key)
+       [dbo].[OrderForeignKey] (Foreign Key)
+       [dbo].[StoreForeignKey] (Foreign Key)
+
+** Supporting actions
